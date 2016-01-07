@@ -41,14 +41,23 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SUA-7Y-g8D">
-                                <rect key="frame" x="30" y="304" width="150" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SUA-7Y-g8D">
+                                <rect key="frame" x="31" y="254" width="150" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="y6s-0d-Idy"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" text="textview" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wJt-XS-GQz">
+                                <rect key="frame" x="31" y="310" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="S7V-98-TPD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -56,11 +65,14 @@
                             <constraint firstAttribute="trailing" secondItem="g9d-gp-iiP" secondAttribute="trailing" constant="30" id="6yb-GH-0ts"/>
                             <constraint firstItem="Qba-xi-bWd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="152" id="8lg-he-cA7"/>
                             <constraint firstItem="lRy-g4-OOW" firstAttribute="top" secondItem="g9d-gp-iiP" secondAttribute="bottom" constant="48" id="ALC-D5-eOL"/>
+                            <constraint firstItem="wJt-XS-GQz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="31" id="EE9-df-Eth"/>
+                            <constraint firstItem="wJt-XS-GQz" firstAttribute="top" secondItem="SUA-7Y-g8D" secondAttribute="bottom" constant="26" id="Gcg-yk-RMC"/>
                             <constraint firstItem="g9d-gp-iiP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="JzV-e3-EQH"/>
                             <constraint firstItem="SUA-7Y-g8D" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="RLq-Aw-5wV"/>
                             <constraint firstAttribute="trailing" secondItem="SUA-7Y-g8D" secondAttribute="trailing" constant="140" id="caB-GZ-Dxb"/>
                             <constraint firstItem="Qba-xi-bWd" firstAttribute="top" secondItem="lRy-g4-OOW" secondAttribute="bottom" constant="38" id="gl0-RK-gxt"/>
                             <constraint firstAttribute="trailing" secondItem="lRy-g4-OOW" secondAttribute="trailing" constant="149" id="kii-ts-k9z"/>
+                            <constraint firstAttribute="trailing" secondItem="wJt-XS-GQz" secondAttribute="trailing" constant="49" id="oGP-gm-aT0"/>
                             <constraint firstAttribute="trailing" secondItem="Qba-xi-bWd" secondAttribute="trailing" constant="20" id="pYJ-mB-g34"/>
                             <constraint firstItem="lRy-g4-OOW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="31" id="qIN-3o-Fl3"/>
                             <constraint firstItem="g9d-gp-iiP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="qgK-KB-6nG"/>

@@ -13,7 +13,6 @@
 		49B53F5A1C3DF50A00CAB237 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B53F581C3DF50A00CAB237 /* Main.storyboard */; };
 		49B53F5C1C3DF50A00CAB237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49B53F5B1C3DF50A00CAB237 /* Assets.xcassets */; };
 		49B53F5F1C3DF50A00CAB237 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B53F5D1C3DF50A00CAB237 /* LaunchScreen.storyboard */; };
-		49B53F681C3DF57500CAB237 /* UITextField+toolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B53F671C3DF57500CAB237 /* UITextField+toolbar.m */; };
 		49B53F761C3DF67500CAB237 /* leftarrow_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B53F6A1C3DF67500CAB237 /* leftarrow_gray.png */; };
 		49B53F771C3DF67500CAB237 /* leftarrow_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B53F6B1C3DF67500CAB237 /* leftarrow_gray@2x.png */; };
 		49B53F781C3DF67500CAB237 /* leftarrow_gray@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B53F6C1C3DF67500CAB237 /* leftarrow_gray@3x.png */; };
@@ -26,6 +25,8 @@
 		49B53F7F1C3DF67500CAB237 /* rightarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B53F731C3DF67500CAB237 /* rightarrow.png */; };
 		49B53F801C3DF67500CAB237 /* rightarrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B53F741C3DF67500CAB237 /* rightarrow@2x.png */; };
 		49B53F811C3DF67500CAB237 /* rightarrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B53F751C3DF67500CAB237 /* rightarrow@3x.png */; };
+		49B53FFC1C3E365500CAB237 /* UITextField+toolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B53FF91C3E365500CAB237 /* UITextField+toolbar.m */; };
+		49B53FFD1C3E365500CAB237 /* UITextView+toolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B53FFB1C3E365500CAB237 /* UITextView+toolbar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,8 +40,6 @@
 		49B53F5B1C3DF50A00CAB237 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49B53F5E1C3DF50A00CAB237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49B53F601C3DF50A00CAB237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		49B53F661C3DF57500CAB237 /* UITextField+toolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+toolbar.h"; sourceTree = "<group>"; };
-		49B53F671C3DF57500CAB237 /* UITextField+toolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+toolbar.m"; sourceTree = "<group>"; };
 		49B53F6A1C3DF67500CAB237 /* leftarrow_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftarrow_gray.png; sourceTree = "<group>"; };
 		49B53F6B1C3DF67500CAB237 /* leftarrow_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leftarrow_gray@2x.png"; sourceTree = "<group>"; };
 		49B53F6C1C3DF67500CAB237 /* leftarrow_gray@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leftarrow_gray@3x.png"; sourceTree = "<group>"; };
@@ -53,6 +52,10 @@
 		49B53F731C3DF67500CAB237 /* rightarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightarrow.png; sourceTree = "<group>"; };
 		49B53F741C3DF67500CAB237 /* rightarrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightarrow@2x.png"; sourceTree = "<group>"; };
 		49B53F751C3DF67500CAB237 /* rightarrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightarrow@3x.png"; sourceTree = "<group>"; };
+		49B53FF81C3E365500CAB237 /* UITextField+toolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+toolbar.h"; sourceTree = "<group>"; };
+		49B53FF91C3E365500CAB237 /* UITextField+toolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+toolbar.m"; sourceTree = "<group>"; };
+		49B53FFA1C3E365500CAB237 /* UITextView+toolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+toolbar.h"; sourceTree = "<group>"; };
+		49B53FFB1C3E365500CAB237 /* UITextView+toolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+toolbar.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,9 +93,11 @@
 				49B53F531C3DF50A00CAB237 /* AppDelegate.m */,
 				49B53F551C3DF50A00CAB237 /* ViewController.h */,
 				49B53F561C3DF50A00CAB237 /* ViewController.m */,
-				49B53F661C3DF57500CAB237 /* UITextField+toolbar.h */,
-				49B53F671C3DF57500CAB237 /* UITextField+toolbar.m */,
 				49B53F581C3DF50A00CAB237 /* Main.storyboard */,
+				49B53FF81C3E365500CAB237 /* UITextField+toolbar.h */,
+				49B53FF91C3E365500CAB237 /* UITextField+toolbar.m */,
+				49B53FFA1C3E365500CAB237 /* UITextView+toolbar.h */,
+				49B53FFB1C3E365500CAB237 /* UITextView+toolbar.m */,
 				49B53F5B1C3DF50A00CAB237 /* Assets.xcassets */,
 				49B53F5D1C3DF50A00CAB237 /* LaunchScreen.storyboard */,
 				49B53F601C3DF50A00CAB237 /* Info.plist */,
@@ -210,8 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49B53FFD1C3E365500CAB237 /* UITextView+toolbar.m in Sources */,
 				49B53F571C3DF50A00CAB237 /* ViewController.m in Sources */,
-				49B53F681C3DF57500CAB237 /* UITextField+toolbar.m in Sources */,
+				49B53FFC1C3E365500CAB237 /* UITextField+toolbar.m in Sources */,
 				49B53F541C3DF50A00CAB237 /* AppDelegate.m in Sources */,
 				49B53F511C3DF50A00CAB237 /* main.m in Sources */,
 			);
